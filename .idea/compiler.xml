@@ -9,4 +9,9 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mssc-brewery-bom" options="-parameters -AmapStruct.defaultComponentModel=spring" />
+    </option>
+  </component>
 </project>
